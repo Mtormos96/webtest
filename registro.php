@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>registro</title>
+  </head>
+
+  <body>
+
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+      <p class="text-light mb-0 p-2 fs-6 ">DevTB Desarrolla tus habilidades en WEB</p>
+    </header>
+
+      <!---------------------->
+      <!-- FORMULARIO LOGIN -->
+      <!---------------------->
+
+      <div class="container" id="contenedor-formulario">
+        <div id="login-formulario" class="text-center mb-4">
+          <h2>Registrate: </h2>
+        </div>
+        <form action="./scripts/funciones.php" method="post">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="Nombre de usuario" placeholder="Username"
+            required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="Nombre y apellidos" placeholder="Nombre y apellidos"
+            required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com"
+            required>
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="pass" placeholder="Contraseña"
+            required>
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="pass" placeholder="Confirmar contraseña"
+            required>
+          </div>
+          <div class="mb-3">
+            <button type="button" class="btn btn-outline-primary w-100 fs-5"> <a href="#"><i class="bi bi-house-lock"></i></a> </button>
+          </div>
+
+        </form>
+      </div>
+
+      <!------------->
+      <!-- BOTONES -->
+      <!------------->
+
+      <div class="container-fluid text-center mb-4">
+        <a class="btn btn-outline-primary justify-content-center" href="#" role="button">Link</a>
+        <button class="btn btn-outline-primary" type="submit">Button</button>
+        <input class="btn btn-outline-primary" type="button" value="Input">
+        <input class="btn btn-outline-primary" type="submit" value="Submit">
+        <input class="btn btn-outline-primary" type="reset" value="Reset">
+      </div>
+
+
+
+      <!--------------------->
+      <!-- PIE DE LA PAGINA-->
+      <!--------------------->
+
+      <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">DevTB © Todos los derechos reservados 2024</p>
+        <div id="iconos">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>src="main.js"</script>
+
+  </body>
+</html>
